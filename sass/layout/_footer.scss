@@ -1,0 +1,12 @@
+.l-footer {
+    display: flex;
+    padding: 40px 5%;
+    background: $text-color;
+    color: white;
+    
+    &__inner {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+}

@@ -1,0 +1,28 @@
+/* Les styles par défaut de vos balises HTML */
+
+body {
+    
+    font-family: $primary-font;
+    font-size: $primary-size;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}

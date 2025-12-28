@@ -1,0 +1,20 @@
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: $radius;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s;
+
+    &--primary {
+        background-color: $secondary-color;
+        color: white;
+        &:hover { background-color: darken($secondary-color, 10%); }
+    }
+
+    &--outline {
+        border: 2px solid $secondary-color;
+        color: $secondary-color;
+        &:hover { background: $secondary-color; color: white; }
+    }
+}

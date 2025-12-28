@@ -1,0 +1,20 @@
+.l-main {
+    min-height: 100vh; // Pour que le pied de page reste en bas même si la page est vide
+    padding: 40px 0;
+
+
+    &__inner {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 2rem 1rem;}
+
+
+    &__page {
+        display: grid;
+        grid-template-columns: 300px 1fr; // Barre latérale à gauche, contenu à droite
+        gap: 30px;
+        max-width: $container-width;
+        margin: 0 auto;
+    }
+
+}
